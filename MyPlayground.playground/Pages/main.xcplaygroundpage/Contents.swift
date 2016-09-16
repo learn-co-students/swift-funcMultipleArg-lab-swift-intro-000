@@ -54,7 +54,7 @@ func bottlesOfBeer(bottles: Int, beer: String, color: String) {
     print("\(bottles) bottles of \(beer) on the \(color) wall.")
 }
 
-bottlesOfBeer(bottles: 99, beer: "beer", color: "blue")
+bottlesOfBeer(bottles: 99, beer: "beer", color: "white")
 
 
 
