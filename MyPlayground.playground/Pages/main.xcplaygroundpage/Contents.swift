@@ -17,6 +17,13 @@
 
 
 
+let sand: String
+sand = "help"
+var test = sand.uppercased()
+var test2 = sand + " me"
+print(test)
+print(test2)
+print(sand)
 
 /*: question2
  ### 2. Can you see why the code below doesn't work? Fix the function call to get rid of the error.
