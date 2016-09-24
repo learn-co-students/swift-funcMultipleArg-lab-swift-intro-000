@@ -3,10 +3,9 @@
 ![Thomas Edison](http://i.imgur.com/x32qPpU.jpg?1)
 > I have not failed. I've just found 10,000 ways that won't work. ~[Thomas Edison](https://en.wikipedia.org/wiki/Thomas_Edison)
 
-## Learning Objectives
+## Overview
 
-* Create functions that contain multiple arguments.
-* Call functions with multiple arguments.
+In this lab, we'll create and call funciton that contain multiple arguments. 
 
 ## Instructions
 

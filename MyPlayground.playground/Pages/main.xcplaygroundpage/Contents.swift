@@ -25,7 +25,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting("Danny", "Hello")
+greeting(name: "Danny", "Hello")
 
 
 
@@ -37,7 +37,7 @@ func daysInMonth(month: String, days: String) {
     print("There are \(days) in \(month)")
 }
 
-daysInMonth("November", days: 30)
+daysInMonth(month: "November", days: 30)
 
 
 
@@ -51,5 +51,5 @@ daysInMonth("November", days: 30)
 
 
 /*:
- [Solution](solution)
+ Checkout the solution branch - git co solution or git checkout solution and then scroll back down to this very spot to see a link that directs you to the solutions to the above questions.
  */
