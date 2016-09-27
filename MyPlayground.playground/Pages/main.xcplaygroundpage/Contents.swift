@@ -15,7 +15,10 @@
  */
 // write your code here
 
-
+func Continet(contienent: String, numberOfCountries: Int) {
+    print("\(contienent) is a contient which contains \(numberOfCountries)")
+    
+}
 
 
 /*: question2
@@ -25,7 +28,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting(name: "Danny", "Hello")
+greeting(name: "Danny", greeting: "Hello")
 
 
 
@@ -37,7 +40,7 @@ func daysInMonth(month: String, days: String) {
     print("There are \(days) in \(month)")
 }
 
-daysInMonth(month: "November", days: 30)
+daysInMonth(month: "November", days: "30")
 
 
 
@@ -47,8 +50,12 @@ daysInMonth(month: "November", days: 30)
  */
 // write your code here
 
+func bottles(beverage: String, numberOfBottles: Int, location: String){
+    print("\(numberOfBottles) bottles of \(beverage) on the \(location)" )
+    
+}
 
-
+bottles(beverage: "Beer", numberOfBottles: 99, location: "wall")
 
 /*:
  Checkout the solution branch - git co solution or git checkout solution and then scroll back down to this very spot to see a link that directs you to the solutions to the above questions.
