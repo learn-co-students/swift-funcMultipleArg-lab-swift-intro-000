@@ -13,8 +13,12 @@
 /*: question1
  ### 1. Create a function that will take in a continent and the number of countries in that continent. It should print the following sentence "____ is a continent which contains ___ countries".
  */
-// write your code here
 
+func Couninco(continent: String, numberOfCountries: Int) {
+    print("There are \(numberOfCountries) in \(continent)")
+}
+
+Couninco(continent: "Africa", numberOfCountries: 54)
 
 
 
@@ -25,7 +29,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting(name: "Danny", "Hello")
+greeting(name:"Danny", greeting: "Hello")
 
 
 
@@ -33,20 +37,22 @@ greeting(name: "Danny", "Hello")
 /*: question3
  ### 3. This function doesn't work, either. Can you fix the function (_not_ the call) so that it works?
  */
-func daysInMonth(month: String, days: String) {
-    print("There are \(days) in \(month)")
+func daysInMonth(month: String, days: Int) {
+    print("There are \(days) days in \(month)")
 }
 
 daysInMonth(month: "November", days: 30)
 
 
 
-
 /*: question4
  ### 4. So far, you have created functions that take two arguments. Can you create (and call) one that takes three? Try to create a function that three parameters: a beverage, the number of bottles of that beverage, and a place you can keep those bottles. Print the sentence "____ bottles of ____ on the ____ wall."
  */
-// write your code here
+func bottles(number: Int, drink: String, place: String) {
+    print("There are \(number) bottles of \(drink) in the \(place)")
+}
 
+bottles(number: 10, drink: "wine", place:"kitchen")
 
 
 
