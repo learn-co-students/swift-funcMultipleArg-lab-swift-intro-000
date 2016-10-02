@@ -13,11 +13,19 @@
 /*: question1
  ### 1. Create a function that will take in a continent and the number of countries in that continent. It should print the following sentence "____ is a continent which contains ___ countries".
  */
-// write your code here
+func continentName(country: String, numberofCountries: Int ){
+
+ print ("\(country) is a continent which contains \(numberofCountries) countries.")
+
+}
+
+    var country = "australia"
+    var number = 5
+    
+continentName(country: "australia", numberofCountries: 5)
 
 
-
-
+    
 /*: question2
  ### 2. Can you see why the code below doesn't work? Fix the function call to get rid of the error.
  */
@@ -25,7 +33,11 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting(name: "Danny", "Hello")
+    var name = "Danny"
+    var greeting = "Hello"
+
+
+greeting(name: name, greeting: greeting)
 
 
 
@@ -33,7 +45,7 @@ greeting(name: "Danny", "Hello")
 /*: question3
  ### 3. This function doesn't work, either. Can you fix the function (_not_ the call) so that it works?
  */
-func daysInMonth(month: String, days: String) {
+func daysInMonth(month: String, days: Int) {
     print("There are \(days) in \(month)")
 }
 
@@ -49,7 +61,16 @@ daysInMonth(month: "November", days: 30)
 
 
 
+beverageName (numberofBottles: Int, nameofBottle: String, nameofPlace: String){
+print ( " \(numberofBottles) bottles of \(nameofBottle) on the \(nameofPlace) wall.")
 
+}
+
+var number = 5
+var name = "iceberg"
+var place = "fridge"
+
+beverageName(number: 5, name: "iceberg", place: "fridge")
 /*:
  Checkout the solution branch - git co solution or git checkout solution and then scroll back down to this very spot to see a link that directs you to the solutions to the above questions.
  */
