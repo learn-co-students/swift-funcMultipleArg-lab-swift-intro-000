@@ -13,16 +13,16 @@
 /*: question1
  ### 1. Create a function that will take in a continent and the number of countries in that continent. It should print the following sentence "____ is a continent which contains ___ countries".
  */
-func continentName(country: String, numberofCountries: Int ){
+func numberOfCountries(continent: String, numberOfCountries: Int ){
 
- print ("\(country) is a continent which contains \(numberofCountries) countries.")
+ print("\(continent) is a continent which contains \(numberOfCountries) countries.")
 
 }
 
-    var country = "australia"
-    var number = 5
+    let continent = "australia"
+    let numCountries = 5
     
-continentName(country: "australia", numberofCountries: 5)
+numberOfCountries(continent, numberOfCountries: numCountries)
 
 
     
@@ -33,11 +33,9 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-    var name = "Danny"
-    var greeting = "Hello"
 
 
-greeting(name: name, greeting: greeting)
+greeting("Dannny", greeting: "Hello")
 
 
 
@@ -49,7 +47,7 @@ func daysInMonth(month: String, days: Int) {
     print("There are \(days) in \(month)")
 }
 
-daysInMonth(month: "November", days: 30)
+daysInMonth("November", days: 30)
 
 
 
@@ -60,17 +58,17 @@ daysInMonth(month: "November", days: 30)
 // write your code here
 
 
-
-beverageName (numberofBottles: Int, nameofBottle: String, nameofPlace: String){
-print ( " \(numberofBottles) bottles of \(nameofBottle) on the \(nameofPlace) wall.")
+func beverageName (beverage: String, numberOfBottles: Int, nameOfPlace: String){
+print ( " \(numberOfBottles) bottles of \(beverage) on the \(nameOfPlace) wall.")
 
 }
 
-var number = 5
-var name = "iceberg"
-var place = "fridge"
 
-beverageName(number: 5, name: "iceberg", place: "fridge")
+let beverage = "iceberg"
+let number = 5
+let place = "fridge"
+
+beverageName(beverage, numberOfBottles: number, nameOfPlace: place)
 /*:
  Checkout the solution branch - git co solution or git checkout solution and then scroll back down to this very spot to see a link that directs you to the solutions to the above questions.
  */
