@@ -13,11 +13,19 @@
 /*: question1
  ### 1. Create a function that will take in a continent and the number of countries in that continent. It should print the following sentence "____ is a continent which contains ___ countries".
  */
-// write your code here
+func numberOfCountries(continent: String, numberOfCountries: Int ){
+
+ print("\(continent) is a continent which contains \(numberOfCountries) countries.")
+
+}
+
+    let continent = "australia"
+    let numCountries = 5
+    
+numberOfCountries(continent, numberOfCountries: numCountries)
 
 
-
-
+    
 /*: question2
  ### 2. Can you see why the code below doesn't work? Fix the function call to get rid of the error.
  */
@@ -25,7 +33,9 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting(name: "Danny", "Hello")
+
+
+greeting("Dannny", greeting: "Hello")
 
 
 
@@ -33,11 +43,11 @@ greeting(name: "Danny", "Hello")
 /*: question3
  ### 3. This function doesn't work, either. Can you fix the function (_not_ the call) so that it works?
  */
-func daysInMonth(month: String, days: String) {
+func daysInMonth(month: String, days: Int) {
     print("There are \(days) in \(month)")
 }
 
-daysInMonth(month: "November", days: 30)
+daysInMonth("November", days: 30)
 
 
 
@@ -48,8 +58,17 @@ daysInMonth(month: "November", days: 30)
 // write your code here
 
 
+func beverageName (beverage: String, numberOfBottles: Int, nameOfPlace: String){
+print ( " \(numberOfBottles) bottles of \(beverage) on the \(nameOfPlace) wall.")
+
+}
 
 
+let beverage = "iceberg"
+let number = 5
+let place = "fridge"
+
+beverageName(beverage, numberOfBottles: number, nameOfPlace: place)
 /*:
  Checkout the solution branch - git co solution or git checkout solution and then scroll back down to this very spot to see a link that directs you to the solutions to the above questions.
  */
