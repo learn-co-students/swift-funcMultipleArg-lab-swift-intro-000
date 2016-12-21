@@ -53,12 +53,12 @@ daysInMonth(month: "November", days: 30)
  */
 func beerSentence(numberOf bottles: Int, typeOf beverage: String, placeOf wall: String) {
     
-    print("\(bottles) bottles of \(beverage) on the \(wall) wall)")
+    print("\(bottles) bottles of \(beverage) on the \(wall) wall")
     
 }
 
 beerSentence(numberOf: 99, typeOf: "beer", placeOf: "Berlin")
-
+beerSentence(numberOf: 1, typeOf: "beer", placeOf: "Berlin")
 
 
 /*:
