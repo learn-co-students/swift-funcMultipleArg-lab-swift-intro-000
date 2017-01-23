@@ -15,7 +15,9 @@
  */
 // write your code here
 
-
+func DisplayContinentInfo(continentName: String, countriesCount: Int) -> Void {
+    print("\(continentName) is a continent which contains \(countriesCount) countries")
+}
 
 
 /*: question2
@@ -25,7 +27,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting(name: "Danny", "Hello")
+greeting(name: "Danny", greeting: "Hello")
 
 
 
@@ -33,7 +35,7 @@ greeting(name: "Danny", "Hello")
 /*: question3
  ### 3. This function doesn't work, either. Can you fix the function (_not_ the call) so that it works?
  */
-func daysInMonth(month: String, days: String) {
+func daysInMonth(month: String, days: Int) {
     print("There are \(days) in \(month)")
 }
 
@@ -46,8 +48,10 @@ daysInMonth(month: "November", days: 30)
  ### 4. So far, you have created functions that take two arguments. Can you create (and call) one that takes three? Try to create a function that three parameters: a beverage, the number of bottles of that beverage, and a place you can keep those bottles. Print the sentence "____ bottles of ____ on the ____ wall."
  */
 // write your code here
+func beverageInfo(_ beverageName: String, _ bottlesCount: Int, _ place: String) {
+    print("\(bottlesCount) bottles of \(beverageName) on the \(place) wall.")
+}
 
-
-
+beverageInfo("pepsi", 3, "right")
 
 //: Click [here](https://github.com/learn-co-curriculum/swift-funcMultipleArg-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) to see the solution.
