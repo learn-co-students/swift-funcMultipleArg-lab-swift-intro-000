@@ -5,7 +5,9 @@
 
 ## Overview
 
-In this lab, we'll create and call funciton that contain multiple arguments. Open up the playground file included with this repo and answer the listed questions (which you will find in the playground file) in order. 
+In this lab, we'll create and call functions that contain multiple arguments. Open up the playground file included with this repo and answer the listed questions (which you will find in the playground file) in order. 
 
 
 <a href='https://learn.co/lessons/FunctionArgLab' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-funcMultipleArg-lab'>Functions and Multiple Arguments Lab</a> on Learn.co and start learning to code for free.</p>
