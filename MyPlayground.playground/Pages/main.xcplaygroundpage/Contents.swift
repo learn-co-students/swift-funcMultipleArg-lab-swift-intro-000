@@ -17,8 +17,8 @@ func continent (numberOfCountries: Int, cont: String) {
     print ("\(cont) is a continent which contains \(numberOfCountries)")
 }
 
-var cont = "Africa"
-var numberOfCountries = 53
+continent (numberOfCountries: 53, cont: "Africa")
+
 /*: question2
  ### 2. Can you see why the code below doesn't work? Fix the function call to get rid of the error.
  */
