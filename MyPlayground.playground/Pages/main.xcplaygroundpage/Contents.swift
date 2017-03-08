@@ -15,8 +15,14 @@
  */
 // write your code here
 
+func continentWithCountries(continentName: String, withNumberOfCountries number: Int) {
+	print("\(continentName) is a continent which contains \(number) countries")
+}
 
+let continent: String = "North America"
+var numberOFCountries = 23
 
+continentWithCountries(continentName: continent, withNumberOfCountries: numberOFCountries)
 
 /*: question2
  ### 2. Can you see why the code below doesn't work? Fix the function call to get rid of the error.
@@ -25,7 +31,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting(name: "Danny", "Hello")
+greeting(name: "Danny", greeting: "Hello")
 
 
 
@@ -33,7 +39,7 @@ greeting(name: "Danny", "Hello")
 /*: question3
  ### 3. This function doesn't work, either. Can you fix the function (_not_ the call) so that it works?
  */
-func daysInMonth(month: String, days: String) {
+func daysInMonth(month: String, days: Int) {
     print("There are \(days) in \(month)")
 }
 
@@ -47,7 +53,14 @@ daysInMonth(month: "November", days: 30)
  */
 // write your code here
 
+func someFuncWithThreeArgs(beverage: String, numberOfBottles: Int, place: String) {
+	print("\(numberOfBottles) bottles of \(beverage) on the \(place).")
+}
 
+var beverage: String = "enerGO"
+var number: Int = 7
+var onPlace: String = "shelf"
 
+someFuncWithThreeArgs(beverage: beverage, numberOfBottles: number, place: onPlace)
 
 //: Click [here](https://github.com/learn-co-curriculum/swift-funcMultipleArg-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) to see the solution.
