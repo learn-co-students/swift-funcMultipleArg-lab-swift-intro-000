@@ -15,7 +15,13 @@
  */
 // write your code here
 
+func continent(continentName: String, numberOfCountrys: Int) {
+    
+    print("\(continentName) is a continent which contains \(numberOfCountrys) countries")
 
+}
+
+continent(continentName: "Afrika", numberOfCountrys: 50)
 
 
 /*: question2
@@ -25,7 +31,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting(name: "Danny", "Hello")
+greeting(name: "Danny", greeting: "Hello")
 
 
 
@@ -33,7 +39,7 @@ greeting(name: "Danny", "Hello")
 /*: question3
  ### 3. This function doesn't work, either. Can you fix the function (_not_ the call) so that it works?
  */
-func daysInMonth(month: String, days: String) {
+func daysInMonth(month: String, days: Int) {
     print("There are \(days) in \(month)")
 }
 
@@ -48,6 +54,10 @@ daysInMonth(month: "November", days: 30)
 // write your code here
 
 
+func restaurant(beverage: String, numberOfBottles: Int, storage: String) {
+    
+    print("\(numberOfBottles) bottles of \(beverage) on the \(storage) wall")
+}
 
-
+restaurant(beverage: "Beer", numberOfBottles: 8, storage: "shelf")
 //: Click [here](https://github.com/learn-co-curriculum/swift-funcMultipleArg-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) to see the solution.
