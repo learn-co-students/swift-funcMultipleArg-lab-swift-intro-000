@@ -1,7 +1,7 @@
 //: [Go Back](@next)
 
 //: ### Question 1
-func numberOfCountries(continent: String, numberOfCountries: Int) {
+func numberOfCountries(_ continent: String, numberOfCountries: Int) {
     print("\(continent) is a continent which contains \(numberOfCountries) countries.")
 }
 
@@ -13,7 +13,7 @@ numberOfCountries(continent, numberOfCountries: numCountries)
 
 
 //: ### Question 2
-func greeting(name: String, greeting: String) {
+func greeting(_ name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
@@ -24,7 +24,7 @@ greeting("Danny", greeting: "Hello")
 
 
 //: ### Question 3
-func daysInMonth(month: String, days: Int) {
+func daysInMonth(_ month: String, days: Int) {
     print("There are \(days) in \(month)")
 }
 
@@ -35,7 +35,7 @@ daysInMonth("November", days: 30)
 
 
 //: ### Question 4
-func beverages(beverage: String, numberOfBottles: Int, holder: String) {
+func beverages(_ beverage: String, numberOfBottles: Int, holder: String) {
     print("\(numberOfBottles) bottles of \(beverage) on the \(holder)")
 }
 
