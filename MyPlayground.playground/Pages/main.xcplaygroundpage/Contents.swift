@@ -15,13 +15,19 @@
  */
 // write your code here
 
+func place(continent: String, num_countries: Int)
+{
+    print("\(continent) is a continent which contains \(num_countries) countries.")
+}
+
+place(continent: "Africa", num_countries: 50)
 
 
 
 /*: question2
  ### 2. Can you see why the code below doesn't work? Fix the function call to get rid of the error.
  */
-func greeting(name: String, greeting: String) {
+func greeting(name: String, _ greeting: String) {
     print("\(greeting), \(name)!")
 }
 
@@ -37,7 +43,7 @@ func daysInMonth(month: String, days: String) {
     print("There are \(days) in \(month)")
 }
 
-daysInMonth(month: "November", days: 30)
+daysInMonth(month: "November", days: "30")
 
 
 
@@ -48,6 +54,11 @@ daysInMonth(month: "November", days: 30)
 // write your code here
 
 
+func bottlesOnWall(name: String, number: Int, place: String)
+{
+    print("\(number) bottles of \(name) on the \(place) wall.")
+}
 
+bottlesOnWall(name: "Coke", number: 5, place: "right")
 
 //: Click [here](https://github.com/learn-co-curriculum/swift-funcMultipleArg-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) to see the solution.
