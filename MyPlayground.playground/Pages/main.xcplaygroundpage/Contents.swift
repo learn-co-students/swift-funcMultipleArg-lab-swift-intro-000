@@ -18,6 +18,7 @@ func continent(continent:String, num:Int) {
     print ("\(continent) is a continent which contains \(num) countries")
 }
 continent(continent: "Asia", num: 1)
+continent(continent: "Azizi", num: 123)
 
 
 
