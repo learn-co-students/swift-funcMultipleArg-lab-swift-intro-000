@@ -7,7 +7,7 @@
  
  * [Functions](https://github.com/learn-co-curriculum/swift-functions-readme)
  * [Functions with multiple arguments](https://github.com/learn-co-curriculum/swift-funcMultipleArg-readme)
-
+ 
  */
 
 /*: question1
@@ -15,7 +15,9 @@
  */
 // write your code here
 
-
+func countriesInContinent(continent: String, countries: Int){
+    print("\(continent) is a continent which contains \(countries) countries.")
+}
 
 
 /*: question2
@@ -25,7 +27,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting(name: "Danny", "Hello")
+greeting(name: "Danny", greeting: "Hello")
 
 
 
@@ -37,7 +39,7 @@ func daysInMonth(month: String, days: String) {
     print("There are \(days) in \(month)")
 }
 
-daysInMonth(month: "November", days: 30)
+daysInMonth(month: "November", days: "30")
 
 
 
@@ -48,6 +50,9 @@ daysInMonth(month: "November", days: 30)
 // write your code here
 
 
+func bevStorage (beverage: String, numBev: Int, location: String){
+    print("\(numBev) bottles of \(beverage) on the \(location) wall.")
+}
 
-
+bevStorage(beverage: "Pepsi", numBev: 12, location: "right")
 //: Click [here](https://github.com/learn-co-curriculum/swift-funcMultipleArg-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) to see the solution.
