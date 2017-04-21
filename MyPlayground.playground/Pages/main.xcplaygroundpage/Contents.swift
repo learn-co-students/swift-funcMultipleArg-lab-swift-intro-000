@@ -14,7 +14,11 @@
  ### 1. Create a function that will take in a continent and the number of countries in that continent. It should print the following sentence "____ is a continent which contains ___ countries".
  */
 // write your code here
+func questionOne(continent: String, numbersOfCountries: Int) {
+    print("\(continent) is a continent which contains \(numbersOfCountries) countries.")
+}
 
+questionOne(continent: "North America", numbersOfCountries: 3)
 
 
 
