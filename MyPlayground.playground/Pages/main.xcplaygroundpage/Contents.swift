@@ -15,7 +15,10 @@
  */
 // write your code here
 
-
+func continentPrinter(numberOfCountries: Int, nameOfContinent: String) -> Void {
+    print("\(nameOfContinent) is a continent which contains \(numberOfCountries) countries")
+}
+continentPrinter(numberOfCountries: 5, nameOfContinent: "Asia")
 
 
 /*: question2
@@ -25,7 +28,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting(name: "Danny", "Hello")
+greeting(name: "Danny", greeting:  "Hello")
 
 
 
@@ -37,7 +40,7 @@ func daysInMonth(month: String, days: String) {
     print("There are \(days) in \(month)")
 }
 
-daysInMonth(month: "November", days: 30)
+daysInMonth(month: "November", days: "30")
 
 
 
@@ -47,7 +50,9 @@ daysInMonth(month: "November", days: 30)
  */
 // write your code here
 
+func threeArgumentTest(beverage: String, numberOfBottles: Int, place: String){
+    print("\(numberOfBottles) bottles of \(beverage) on the \(place) wall")
+}
 
-
-
+threeArgumentTest(beverage: "Fanta", numberOfBottles: 50, place: "Bryant Hall")
 //: Click [here](https://github.com/learn-co-curriculum/swift-funcMultipleArg-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) to see the solution.
