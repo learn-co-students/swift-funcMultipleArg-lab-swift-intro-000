@@ -54,7 +54,7 @@ func soundsLikeAParty(bev: String, numBottles: Int, storagePlace: String){
     print("\(numBottles) bottles of \(bev) on the \(storagePlace)")
 }
 
-soundsLikeAParty(bev: "beer", numBottles: 5, storagePlace: "wall")
+soundsLikeAParty(bev: "beer", numBottles: 4, storagePlace: "wall")
 
 
 
