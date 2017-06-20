@@ -15,6 +15,11 @@
  */
 // write your code here
 
+func myWorld(continent: String, country: Int){
+    print("\(continent) is a continent which contains \(country) countries")
+    
+}
+myWorld(continent: "Africa", country: 32)
 
 
 
@@ -25,7 +30,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting(name: "Danny", "Hello")
+greeting(name: "Danny", greeting: "Hello")
 
 
 
@@ -33,8 +38,8 @@ greeting(name: "Danny", "Hello")
 /*: question3
  ### 3. This function doesn't work, either. Can you fix the function (_not_ the call) so that it works?
  */
-func daysInMonth(month: String, days: String) {
-    print("There are \(days) in \(month)")
+func daysInMonth(month: String, days: Int) {
+    print("There are \(days) days in \(month)")
 }
 
 daysInMonth(month: "November", days: 30)
@@ -47,6 +52,13 @@ daysInMonth(month: "November", days: 30)
  */
 // write your code here
 
+func greatest(_ one: String, _ two: String, _ three: String){
+    print("1. \(one)")
+    print("2. \(two)")
+    print("3. \(three)")
+}
+
+greatest("Kobe", "Jordan", "Lebron")
 
 
 
