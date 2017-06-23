@@ -13,12 +13,15 @@
 /*: question1
  ### 1. Create a function that will take in a continent and the number of countries in that continent. It should print the following sentence "____ is a continent which contains ___ countries".
  */
-func continent() {
-    print("North America is a continent which contains 23 countries")
+func continent(continent: String, numberOfCountries:Int) {
+    print("\(continent) is a continent which contains \(numberOfCountries) countries")
 }
 
 
-continent()
+let continent = "Africa"
+let numCountries = 54
+
+continent(continent: continent, numberOfCountries: numCountries)
 /*: question2
  ### 2. Can you see why the code below doesn't work? Fix the function call to get rid of the error.
  */
