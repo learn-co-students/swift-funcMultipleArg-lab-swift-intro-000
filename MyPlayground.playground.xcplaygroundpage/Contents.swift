@@ -51,9 +51,10 @@ daysInMonth(month: "November", days: 30)
  */
 // write your code here
 func bottlesOfBeer(number: Int, beverage: String, wall: String) {
-    print(\()
+    print("\(number) bottles of \(beverage) on the \(wall).")
 }
 
+bottlesOfBeer(number: 75,beverage: "beer",wall: "bar")
 
 
 
