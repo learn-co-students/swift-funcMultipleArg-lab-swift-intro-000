@@ -14,14 +14,15 @@
  ### 1. Create a function that will take in a continent and the number of countries in that continent. It should print the following sentence "____ is a continent which contains ___ countries".
  */
 // write your code here
-
-
+func printNumbers(continent:String,countrynumber:Int){
+    print("\(continent) is a continent which contains \(countrynumber) countries.")
+}
 
 
 /*: question2
  ### 2. Can you see why the code below doesn't work? Fix the function call to get rid of the error.
  */
-func greeting(name: String, greeting: String) {
+func greeting(name: String,_ greeting: String) {
     print("\(greeting), \(name)!")
 }
 
@@ -33,7 +34,7 @@ greeting(name: "Danny", "Hello")
 /*: question3
  ### 3. This function doesn't work, either. Can you fix the function (_not_ the call) so that it works?
  */
-func daysInMonth(month: String, days: String) {
+func daysInMonth(month: String, days: Int) {
     print("There are \(days) in \(month)")
 }
 
@@ -48,6 +49,9 @@ daysInMonth(month: "November", days: 30)
 // write your code here
 
 
-
+func myFunc(_ beverage:String,_ bottleNumber:Int,_ place:String){
+    print("\(beverage) bottles of \(bottleNumber) on the \(place) wall.")
+}
+myFunc("ffa",2,"ssaf")
 
 //: Click [here](https://github.com/learn-co-curriculum/swift-funcMultipleArg-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) to see the solution.
