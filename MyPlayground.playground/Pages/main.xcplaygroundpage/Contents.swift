@@ -15,7 +15,17 @@
  */
 // write your code here
 
+func numberOfContries(continent: String, countires: Int) {
+    
+    print("\(continent) is a contenent which contains \(countires) countries" )
+    
+}
 
+let connt = "Asia"
+
+let cntry = 7
+
+numberOfContries(continent: connt, countires: cntry)
 
 
 /*: question2
@@ -25,7 +35,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting(name: "Danny", "Hello")
+greeting(name: "Danny", greeting: "Hello")
 
 
 
@@ -37,7 +47,10 @@ func daysInMonth(month: String, days: String) {
     print("There are \(days) in \(month)")
 }
 
-daysInMonth(month: "November", days: 30)
+let mnt = "November"
+let nday = "30"
+
+daysInMonth(month: mnt, days: nday)
 
 
 
@@ -47,7 +60,18 @@ daysInMonth(month: "November", days: 30)
  */
 // write your code here
 
+func threeArguments(beverageType: String, numberOfBottles: Int, placeToStore: String) {
+    
+    print("\(numberOfBottles)  bottles of \(beverageType) on the \(placeToStore) wall")
+    
+}
 
+let beverage = "Coke"
+let bottles = 48
+let holder = "Freezer"
+
+
+threeArguments(beverageType: beverage, numberOfBottles: bottles, placeToStore: holder)
 
 
 //: Click [here](https://github.com/learn-co-curriculum/swift-funcMultipleArg-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) to see the solution.
