@@ -52,7 +52,7 @@ daysInMonth(month: "November", days: 30)
 func bottleStorage(number: Int, contents: String, location: String){
     print("\(number) bottles of \(contents) on the \(location).")
 }
-bottleStorage(number: 234, contents: "whiskey", location: "shelf")
+bottleStorage(number: 34, contents: "whiskey", location: "shelf")
 
 
 
