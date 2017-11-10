@@ -54,5 +54,5 @@ daysInMonth(month: "November", days: "30")
 func beverage (beverageName: String, beverageBottlesNumber: Int, beverageStorageLocation: String) {
     print ("\(beverageBottlesNumber) bottles of \(beverageName) on the \(beverageStorageLocation).")
 }
-beverage(beverageName: "Henessey", beverageBottlesNumber: 16, beverageStorageLocation: "Table")
+beverage(beverageName: "Coke", beverageBottlesNumber: 16, beverageStorageLocation: "Table")
 //: Click [here](https://github.com/learn-co-curriculum/swift-funcMultipleArg-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) to see the solution.
