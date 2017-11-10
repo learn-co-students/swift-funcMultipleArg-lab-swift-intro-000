@@ -14,9 +14,13 @@
  ### 1. Create a function that will take in a continent and the number of countries in that continent. It should print the following sentence "____ is a continent which contains ___ countries".
  */
 // write your code here
+func countriesAndContinents (continentName: String, noOfCountries: Int) {
+print ("\(continentName) is a continent which contains \(noOfCountries) countries.")
 
-
-
+}
+let continent = "Africa"
+let countriesInContinent = 54
+countriesAndContinents(continentName: continent, noOfCountries: countriesInContinent)
 
 /*: question2
  ### 2. Can you see why the code below doesn't work? Fix the function call to get rid of the error.
@@ -25,7 +29,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting(name: "Danny", "Hello")
+greeting(name: "Danny", greeting: "Hello")
 
 
 
@@ -37,7 +41,7 @@ func daysInMonth(month: String, days: String) {
     print("There are \(days) in \(month)")
 }
 
-daysInMonth(month: "November", days: 30)
+daysInMonth(month: "November", days: "30")
 
 
 
@@ -47,7 +51,8 @@ daysInMonth(month: "November", days: 30)
  */
 // write your code here
 
-
-
-
+func beverage (beverageName: String, beverageBottlesNumber: Int, beverageStorageLocation: String) {
+    print ("\(beverageBottlesNumber) bottles of \(beverageName) on the \(beverageStorageLocation).")
+}
+beverage(beverageName: "Fanta", beverageBottlesNumber: 16, beverageStorageLocation: "Table")
 //: Click [here](https://github.com/learn-co-curriculum/swift-funcMultipleArg-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) to see the solution.
