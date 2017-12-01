@@ -15,8 +15,10 @@
  */
 // write your code here
 
-
-
+func continentNo(continent: String, number: Int) {
+    print("\(continent) is a continent which contains \(number) countries")
+}
+continentNo(continent: "Africa", number: 54)
 
 /*: question2
  ### 2. Can you see why the code below doesn't work? Fix the function call to get rid of the error.
@@ -25,11 +27,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting("Danny", "Hello")
-
-
-
-
+greeting(name: "Danny", greeting:"Hello")
 /*: question3
  ### 3. This function doesn't work, either. Can you fix the function (_not_ the call) so that it works?
  */
@@ -37,19 +35,15 @@ func daysInMonth(month: String, days: String) {
     print("There are \(days) in \(month)")
 }
 
-daysInMonth("November", days: 30)
-
-
-
+daysInMonth(month: "November", days: "30")
 
 /*: question4
  ### 4. So far, you have created functions that take two arguments. Can you create (and call) one that takes three? Try to create a function that three parameters: a beverage, the number of bottles of that beverage, and a place you can keep those bottles. Print the sentence "____ bottles of ____ on the ____ wall."
  */
 // write your code here
 
+func lastFunction(beverage: String, number: Int, place: String) {
+    print("\(beverage) bottles of \(number) on the \(place) wall")
+}
+lastFunction(beverage: "CocaCola", number: 6, place: "main")
 
-
-
-/*:
- [Solution](solution)
- */
