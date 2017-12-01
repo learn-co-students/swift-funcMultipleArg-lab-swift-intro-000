@@ -1,4 +1,4 @@
-/*: Outline
+ /*: Outline
  
  
  # Functions with multiple arguments
@@ -14,18 +14,23 @@
  ### 1. Create a function that will take in a continent and the number of countries in that continent. It should print the following sentence "____ is a continent which contains ___ countries".
  */
 // write your code here
+func noCountiesPerCont(noCountries: Int, sCont: String) {
+    print("\(sCont) is a continent which contains \(noCountries) countries")
+}
 
-
-
+let sCont = "Africa"
+let noCountries = 54
+noCountiesPerCont(noCountries: 8, sCont: "North America")
 
 /*: question2
  ### 2. Can you see why the code below doesn't work? Fix the function call to get rid of the error.
  */
+
 func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting(name: "Danny", "Hello")
+ greeting(name: "Danny", greeting: "Hello")
 
 
 
@@ -33,7 +38,7 @@ greeting(name: "Danny", "Hello")
 /*: question3
  ### 3. This function doesn't work, either. Can you fix the function (_not_ the call) so that it works?
  */
-func daysInMonth(month: String, days: String) {
+func daysInMonth(month: String, days: Int) {
     print("There are \(days) in \(month)")
 }
 
@@ -47,7 +52,11 @@ daysInMonth(month: "November", days: 30)
  */
 // write your code here
 
-
-
+func bottles(bev: String, noBottles: Int, bWhere: String) {
+    print("\(noBottles) bottles of \(bev) on the \(bWhere) wall.")
+}
+bottles(bev: "Cabernet", noBottles: 5, bWhere: "Living Room")
 
 //: Click [here](https://github.com/learn-co-curriculum/swift-funcMultipleArg-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) to see the solution.
+
+
