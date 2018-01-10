@@ -15,8 +15,17 @@
  */
 // write your code here
 
+func countriesOnContinent(continent: String, countries: Int){
+    print("\(continent) is a continent which contains \(countries) countries")
+}
+var continent = "North America"
+var countries = 23
 
+countriesOnContinent(continent: continent, countries: countries)
+continent = "Europe"
+countries = 50
 
+countriesOnContinent(continent: continent, countries: countries)
 
 /*: question2
  ### 2. Can you see why the code below doesn't work? Fix the function call to get rid of the error.
@@ -25,7 +34,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting(name: "Danny", "Hello")
+greeting(name: "Danny", greeting: "Hello")
 
 
 
@@ -34,10 +43,10 @@ greeting(name: "Danny", "Hello")
  ### 3. This function doesn't work, either. Can you fix the function (_not_ the call) so that it works?
  */
 func daysInMonth(month: String, days: String) {
-    print("There are \(days) in \(month)")
+    print("There are \(days) days in \(month)")
 }
 
-daysInMonth(month: "November", days: 30)
+daysInMonth(month: "November", days: "30")
 
 
 
@@ -47,7 +56,11 @@ daysInMonth(month: "November", days: 30)
  */
 // write your code here
 
-
-
-
+func bottlesOnWall(beverage: String, numberOfBottles: Int, keep: String){
+    print("\(numberOfBottles) bottles of \(beverage) on the \(keep) wall")
+}
+var bev = "Beer"
+var num = 99
+var whereOnWall = "Left"
+bottlesOnWall(beverage: bev, numberOfBottles: num, keep: whereOnWall)
 //: Click [here](https://github.com/learn-co-curriculum/swift-funcMultipleArg-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) to see the solution.
