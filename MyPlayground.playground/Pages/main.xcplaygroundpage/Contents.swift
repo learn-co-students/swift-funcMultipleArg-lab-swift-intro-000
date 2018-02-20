@@ -47,10 +47,10 @@ daysInMonth(month: "November", days: 30)
  ### 4. So far, you have created functions that take two arguments. Can you create (and call) one that takes three? Try to create a function that three parameters: a beverage, the number of bottles of that beverage, and a place you can keep those bottles. Print the sentence "____ bottles of ____ on the ____ wall."
  */
 func bottlesOfBeverage(beverage: String, numOfBottles: Int, place: String){
-    print("\(numOfBottles) bottles of \(beverage) on the \(place) wall.")
+    print("\(numOfBottles) bottles of \(beverage) on the \(place).")
 }
 
-bottlesOfBeverage(beverage: "Cona", numOfBottles: 99, place: "Plastic")
+bottlesOfBeverage(beverage: "beer", numOfBottles: 99, place: "wall")
 
 
 
