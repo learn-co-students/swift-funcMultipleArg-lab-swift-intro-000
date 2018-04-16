@@ -14,7 +14,9 @@
  ### 1. Create a function that will take in a continent and the number of countries in that continent. It should print the following sentence "____ is a continent which contains ___ countries".
  */
 // write your code here
-
+func countryContinent(continent: String, countries: Int) {
+    print("\(continent) is a continent which contains \(countries) countries")
+}
 
 
 
@@ -25,7 +27,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting(name: "Danny", "Hello")
+greeting(greeting: "Hello", name: "Danny")
 
 
 
@@ -33,7 +35,7 @@ greeting(name: "Danny", "Hello")
 /*: question3
  ### 3. This function doesn't work, either. Can you fix the function (_not_ the call) so that it works?
  */
-func daysInMonth(month: String, days: String) {
+func daysInMonth(month: String, days: Int) {
     print("There are \(days) in \(month)")
 }
 
@@ -47,7 +49,9 @@ daysInMonth(month: "November", days: 30)
  */
 // write your code here
 
+func nursery(beverage: String, number: Int, place: String){
+    print("\(number) bottles of \(beverage) on the \(place) wall.")
+}
 
-
-
+nursery(beverage: "beer", number: 3, place: "back")
 //: Click [here](https://github.com/learn-co-curriculum/swift-funcMultipleArg-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) to see the solution.
