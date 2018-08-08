@@ -15,17 +15,21 @@
  */
 // write your code here
 
-
-
+func continentDescription(name: String, countries: Int) {
+    
+    print("\(name) is a continent which contains \(countries) countries.")
+    
+}
+continentDescription(name: "North America", countries: 3)
 
 /*: question2
  ### 2. Can you see why the code below doesn't work? Fix the function call to get rid of the error.
  */
-func greeting(name: String, greeting: String) {
-    print("\(greeting), \(name)!")
+func greeting(name: String, greetingType: String) {
+    print("\(greetingType), \(name)!")
 }
 
-greeting(name: "Danny", "Hello")
+greeting(name: "Danny", greetingType: "Hello")
 
 
 
@@ -33,7 +37,7 @@ greeting(name: "Danny", "Hello")
 /*: question3
  ### 3. This function doesn't work, either. Can you fix the function (_not_ the call) so that it works?
  */
-func daysInMonth(month: String, days: String) {
+func daysInMonth(month: String, days: Int) {
     print("There are \(days) in \(month)")
 }
 
@@ -47,7 +51,9 @@ daysInMonth(month: "November", days: 30)
  */
 // write your code here
 
+func song(bottles: Int, beverage: String, place: String) {
+    
+    print("\(bottles) bottles of \(beverage) on the \(place).")
+}
 
-
-
-//: Click [here](https://github.com/learn-co-curriculum/swift-funcMultipleArg-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) to see the solution.
+song(bottles: 99, beverage: "beer", place: "wall")
