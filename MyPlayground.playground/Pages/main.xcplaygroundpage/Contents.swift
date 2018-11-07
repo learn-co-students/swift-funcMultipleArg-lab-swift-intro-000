@@ -14,8 +14,12 @@
  ### 1. Create a function that will take in a continent and the number of countries in that continent. It should print the following sentence "____ is a continent which contains ___ countries".
  */
 // write your code here
+func hiContinent(continent: String, number: Int) {
+    
+    print("\(continent) is a continent which contains \(number) countries")
+}
 
-
+hiContinent(continent: "America", number: 68)
 
 
 /*: question2
@@ -25,7 +29,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting(name: "Danny", "Hello")
+greeting(name: "Danny", greeting: "Hello")
 
 
 
@@ -33,7 +37,7 @@ greeting(name: "Danny", "Hello")
 /*: question3
  ### 3. This function doesn't work, either. Can you fix the function (_not_ the call) so that it works?
  */
-func daysInMonth(month: String, days: String) {
+func daysInMonth(month: String, days: Int) {
     print("There are \(days) in \(month)")
 }
 
@@ -46,7 +50,12 @@ daysInMonth(month: "November", days: 30)
  ### 4. So far, you have created functions that take two arguments. Can you create (and call) one that takes three? Try to create a function that three parameters: a beverage, the number of bottles of that beverage, and a place you can keep those bottles. Print the sentence "____ bottles of ____ on the ____ wall."
  */
 // write your code here
+func haveABeverage(_ beverage: String, _ number: Int, _ place: String) {
+    
+    print("\(number) bottles of \(beverage) on the \(place) wall.")
+}
 
+haveABeverage("Coca Cola", 6, "dining room")
 
 
 
