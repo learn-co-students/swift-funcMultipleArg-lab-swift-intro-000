@@ -21,23 +21,20 @@
 /*: question2
  ### 2. Can you see why the code below doesn't work? Fix the function call to get rid of the error.
  */
-func greeting(name: String, greeting: String) {
+func greeting(_ name: String, _ greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting(name: "Danny", "Hello")
-
-
-
+greeting("Danny", "Hello")
 
 /*: question3
  ### 3. This function doesn't work, either. Can you fix the function (_not_ the call) so that it works?
  */
-func daysInMonth(month: String, days: String) {
+func daysInMonth(_ month: String, _ days: Int) {
     print("There are \(days) in \(month)")
 }
 
-daysInMonth(month: "November", days: 30)
+daysInMonth("November", 30)
 
 
 
