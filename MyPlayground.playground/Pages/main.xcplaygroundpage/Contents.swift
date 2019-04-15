@@ -14,8 +14,11 @@
  ### 1. Create a function that will take in a continent and the number of countries in that continent. It should print the following sentence "____ is a continent which contains ___ countries".
  */
 // write your code here
+func countryInContinent (country: String, continent: String) {
+    print ("\(country) is a continent which contains \(continent) countries")
+}
 
-
+countryInContinent (country: "Nederland", continent: "Europa")
 
 
 /*: question2
@@ -25,7 +28,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting(name: "Danny", "Hello")
+greeting(name: "Danny", greeting: "Hello")
 
 
 
@@ -37,7 +40,7 @@ func daysInMonth(month: String, days: String) {
     print("There are \(days) in \(month)")
 }
 
-daysInMonth(month: "November", days: 30)
+daysInMonth(month: "November", days: "30")
 
 
 
@@ -47,7 +50,11 @@ daysInMonth(month: "November", days: 30)
  */
 // write your code here
 
+func bottlesOf(number: Int, beverage: String, place: String) {
+    print("\(number) bottles of \(beverage) on the \(place) wall.")
+}
 
+bottlesOf(number: 2, beverage: "beer", place: "cellar")
 
 
 //: Click [here](https://github.com/learn-co-curriculum/swift-funcMultipleArg-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) to see the solution.
