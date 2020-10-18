@@ -7,7 +7,7 @@
  
  * [Functions](https://github.com/learn-co-curriculum/swift-functions-readme)
  * [Functions with multiple arguments](https://github.com/learn-co-curriculum/swift-funcMultipleArg-readme)
-
+ 
  */
 
 /*: question1
@@ -15,17 +15,24 @@
  */
 // write your code here
 
+func World(place: String, number: Int) {
+    print("\(place) is a continent which contains \(number) countries")
+}
+
+let continent = "Africa"
+let countries = 54
 
 
-
+World(place: continent , number: countries)
 /*: question2
  ### 2. Can you see why the code below doesn't work? Fix the function call to get rid of the error.
  */
-func greeting(name: String, greeting: String) {
+func greetings(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting(name: "Danny", "Hello")
+greetings(name: "Danny", greeting: "Hello")
+
 
 
 
@@ -33,8 +40,8 @@ greeting(name: "Danny", "Hello")
 /*: question3
  ### 3. This function doesn't work, either. Can you fix the function (_not_ the call) so that it works?
  */
-func daysInMonth(month: String, days: String) {
-    print("There are \(days) in \(month)")
+func daysInMonth(month: String, days: Int) {
+    print("There are \(days) days in \(month)")
 }
 
 daysInMonth(month: "November", days: 30)
@@ -47,7 +54,10 @@ daysInMonth(month: "November", days: 30)
  */
 // write your code here
 
+func schoolbuschant(beverage: String, number: Int, place: String) {
+    print("\(number) bottles of \(beverage) on the \(place) wall")
+}
 
-
+schoolbuschant(beverage: "Old english", number: 30, place: "Mink")
 
 //: Click [here](https://github.com/learn-co-curriculum/swift-funcMultipleArg-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) to see the solution.
